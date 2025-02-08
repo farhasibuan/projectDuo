@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Tabel Dosen</h4>
+        
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Nama Dosen</th>
+                  <th>Nip</th>
+                  <th>Email</th>
+                  <th>Bidang Keahlian</th>
+                  <th></th>
+                </tr>
+              </thead>
+             <tbody>
+                <% data.forEach(element => { %>
+                 <tr>
+                    <td><%- element.id %></td>
+                    <td><%- element.nama_dosen %></td>
+                    <td><%- element.nip %></td>
+                    <td><%- element.email %></td>
+                    <td><%- element.bidang_keahlian %></td>
+                 </tr>
+                <% }) %>
+             </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+  </div>
