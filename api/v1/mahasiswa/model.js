@@ -1,42 +1,42 @@
 const mahasiswa = [
     { 
       id: 1, 
-      nama: "Andi", 
+      nama: "Zaffar Bunuy", 
       dosenId: 101, 
       jurusan: "Teknik Informatika", 
-      email: "andi@universitas.com", 
+      email: "far@universitas.com", 
      
     },
     { 
       id: 2, 
-      nama: "Budi", 
+      nama: "Rifki", 
       dosenId: 102, 
       jurusan: "Sistem Informasi", 
-      email: "budi@universitas.com", 
+      email: "rifk@universitas.com", 
       
     },
     { 
       id: 3, 
-      nama: "Cici", 
+      nama: "Omanparis", 
       dosenId: 101, 
       jurusan: "Teknik Informatika", 
-      email: "cici@universitas.com", 
+      email: "pician@universitas.com", 
      
     },
     { 
       id: 4, 
-      nama: "Dani", 
+      nama: "Dani Gantenk", 
       dosenId: 103,  
       jurusan: "Teknik Elektro", 
-      email: "dani@universitas.com", 
+      email: "lampung@universitas.com", 
  
     },
     { 
       id: 5, 
-      nama: "Eka", 
+      nama: "Izzan Mariek", 
       dosenId: 102,
       jurusan: "Sistem Informasi", 
-      email: "eka@universitas.com", 
+      email: "manipulator@universitas.com", 
     }
   ];
 
